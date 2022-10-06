@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Studio Ghibli</title>
+  </head>
+
+  <body>
+    <h2>Studio Ghibli API in JavaScript</h2>
+    <i>Choose a movie from the dropdown below!</i>
+    <br />
+    <i>Click <b>clear</b> to reset the information on screen!</i>
+
+    <div id="main"></div>
+
+    <ol id="things"></ol>
+
+    <select id="options" onchange="getItemSelected();"></select>
+
+    <br /><br />
+
+    <button onclick="clearScreen();">Clear</button>
+    <footer>
+      <br />
+      <br />
+      <i>Assignment completed by Yousef Ismail</i>
+    </footer>
+    <script src="script.js" defer></script>
+  </body>
+</html>
